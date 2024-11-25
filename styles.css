@@ -1,0 +1,62 @@
+body {
+    color: wheat;
+    background: black;
+    margin: 0px;
+    font-family: "Titillium Web", sans-serif;
+    margin-bottom: 70px;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(200, 32, 32);
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(200, 32, 32);
+
+}
+
+.chamada {
+    background: rgb(143, 100, 67);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 3%;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    font-size: 17px;
+}
+
+.segmento-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.segmento {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 45px;
+}
+
+.segmento-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.segmento-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(79, 79, 255);
+}
+
+.segmento h2{
+    color: rgb(200, 32, 32);
+}
